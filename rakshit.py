@@ -1,3 +1,7 @@
-print("love you sneha<3 love you 3000")
-a=input("enter input")
-print(a)
+import sys
+
+if len(sys.argv) > 1:
+    a = sys.argv[1]
+else:
+    a = "default"
+print("You entered:", a)
